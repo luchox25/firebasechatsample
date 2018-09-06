@@ -11,12 +11,12 @@ import { MessageComponent } from './message/message.component';
 import { InputComponent } from './input/input.component';
 
 const config = {
-    apiKey: "AIzaSyCZvbkSXuYnfGbLaEg-tDRiyQBrn7joBhc",
-    authDomain: "chat-firebase-5cb27.firebaseapp.com",
-    databaseURL: "https://chat-firebase-5cb27.firebaseio.com",
-    projectId: "chat-firebase-5cb27",
-    storageBucket: "chat-firebase-5cb27.appspot.com",
-    messagingSenderId: "315188955838"
+    apiKey: <YOUR_API_KEY>,
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: <YOUR_MESSAGESENDER_ID>
 };
 
 @NgModule({
